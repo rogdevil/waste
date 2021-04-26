@@ -1,0 +1,13 @@
+.simple-input {
+    width: 95%;
+    margin: 20px 0px;
+}
+
+.simple-input > input {
+    width: -webkit-fill-available;
+    padding: 16px 12px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

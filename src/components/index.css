@@ -1,0 +1,55 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 95%;
+    margin: auto;
+}
+
+    .login-form{
+
+        max-width: 95%;
+        background-color: #424242;
+        padding: 16px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .bold-subtext{
+        font-style: normal;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: white;
+        margin: 0px 0px 0px 0px;
+        font-weight: bold;
+    }
+    .subtext {
+        font-style: normal;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: white;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .user_row{
+        display: grid;
+        /* max-width: 700px; */
+        grid-template-columns: 100px 30px 200px 200px 250px;
+        text-align: left;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        background-color: #d7d7d7;
+        padding: 5px 10px;
+    }
+
+    .user_avtar > img {
+        width: 50px;
+        border-radius: 50px;
+    }
