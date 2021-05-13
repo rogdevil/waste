@@ -32,6 +32,7 @@ export default function Register() {
 
     useEffect(() => {
         console.log(globalState)
+        // eslint-disable-next-line
     }, [])
     return (
         <div className="login-wrapper">

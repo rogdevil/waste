@@ -20,31 +20,32 @@ export default function GetData() {
 
     useEffect(() => {
         console.log("running useeffect sort")
-        if(idascSort == true) {
+        if(idascSort === true) {
             let newData = [...data].sort((a, b) => (a.id > b.id ? 1 : -1))
             setData(newData)
-        }else if(idSort == true) {
+        }else if(idSort === true) {
             let newData = [...data].sort((a, b) => (a.id < b.id ? 1 : -1))
             setData(newData)
-        }else if(fnameascSort == true) {
+        }else if(fnameascSort === true) {
             let newData = [...data].sort((a, b) => (a.first_name > b.first_name ? 1 : -1))
             setData(newData)
-        }else if(fnameSort == true) {
+        }else if(fnameSort === true) {
             let newData = [...data].sort((a, b) => (a.first_name < b.first_name ? 1 : -1))
             setData(newData)
-        }else if(lnameascSort == true) {
+        }else if(lnameascSort === true) {
             let newData = [...data].sort((a, b) => (a.last_name > b.last_name ? 1 : -1))
             setData(newData)
-        }else if(lnameSort == true) {
+        }else if(lnameSort === true) {
             let newData = [...data].sort((a, b) => (a.last_name < b.last_name ? 1 : -1))
             setData(newData)
-        }else if(emailascSort == true) {
+        }else if(emailascSort === true) {
             let newData = [...data].sort((a, b) => (a.email > b.email ? 1 : -1))
             setData(newData)
-        }else if(emailSort == true) {
+        }else if(emailSort === true) {
             let newData = [...data].sort((a, b) => (a.email < b.email ? 1 : -1))
             setData(newData)
         }
+        // eslint-disable-next-line
     }, [idSort, fnameSort, lnameSort, emailSort, idascSort, fnameascSort, lnameascSort, emailascSort])
 
 
