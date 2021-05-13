@@ -133,7 +133,6 @@ export default function GetData() {
             {
                 data.map(item => <TableItem key={item.id} avtar={item.avatar} id={item.id} fname={item.first_name} lname={item.last_name} email={item.email} />)
             }
-            {/* <TableItem avtar="https://reqres.in/img/faces/7-image.jpg" id="3" fname="Veronica" lname="Parker" email="veronicaparker@gmail.com" /> */}
         </div>
     )
 }
